@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.divide-x {
+    height: 100%;
+    width: 2px; /* Adjust thickness as needed */
+    background-color: #1570ef; /* Color of the line */
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.divide-dashed {
+    background: transparent;
+    border: 1px dashed #1570ef; /* Color of the dots */
+}
